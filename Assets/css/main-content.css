@@ -1,0 +1,58 @@
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0;
+}
+
+.section-one {
+    background-color: #ccc;
+}
+
+.section-one header {
+    padding: 1rem;
+}
+
+.display-section header {
+    padding: 1rem;
+}
+
+.section header {
+    padding: 1rem; 
+}
+
+.article {
+    padding: 1rem;
+}
+
+.display-section {
+    background-color: #ccc;
+}
+
+.section {
+    background-color: #ccc;
+}
+
+.display-section .article-container figure img {
+   width: 100%;
+}
+
+.article h4 {
+    color: #cc0000;
+}
+
+.article a {
+    display: flex;
+    justify-content: flex-end;
+    color: #cc0000;
+}
+
+.position-article img {
+    width: 100%;
+}
+
+.position-article .position-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.7rem;
+}

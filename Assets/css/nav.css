@@ -1,0 +1,63 @@
+.header-container {
+    display: inline-block;
+    position: sticky;
+}
+
+
+.main-header img {
+    display: block;
+    width: 100%;
+}
+
+/* .main-header hgroup {
+     position: absolute;
+    top: 2vw;
+    margin: 0;
+    padding: 2.6vw 0 0 23vw;
+    background-color: #222; 
+} */
+
+.main-header h1 {
+    color: #999999;
+    position: absolute;
+    font-size: 7.8vw;
+    top: 2vw;
+    margin: 0;
+    padding: 2.6vw 0 0 24vw;
+}
+
+.main-header h1 span {
+    color: #cc0000;
+}
+
+.main-nav {
+    position: relative;
+    overflow: hidden;
+}
+
+.main-nav ul{
+    display: flex;
+    position: absolute;
+    list-style: none;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1.5vw 2vw;
+}
+
+.main-nav ul a:hover {
+    background-color: #cc0000;
+}
+
+.main-nav img {
+    position: relative;
+    width: 100%;
+    display: block;
+}
